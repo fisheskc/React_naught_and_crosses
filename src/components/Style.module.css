@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 8rem);
+    grid-template-rows: repeat(3, 8rem);
+    grid-gap: 0.1rem
+}
+
+.cell {
+    height: 120px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.2rem;
+    /* display: inline-block;
+    margin-right: 4px;*/
+    
+} 
+
